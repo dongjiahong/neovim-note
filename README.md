@@ -6,7 +6,7 @@
 
 `brew install neovim`
 
-neovim的配置文件夹目录应该是`/Users/$NAME/.config/nvim`,其中的配置文件为`init.nvim`配置信息和方式同
+neovim的配置文件夹目录应该是`/Users/$NAME/.config/nvim`,其中的配置文件为`init.vim`配置信息和方式同
 vim的`.vimrc`是一样的
 
 ### 安装插件管理器plug-vim
