@@ -35,7 +35,7 @@ call plug#end()
 
 ### coc的配置文件`/Users/$NAME/.config/nvim/coc-settings.json`
 
-这里我们会使用golang的配置，go-vim安装后需要安装go的工具包`:GoInstallBinaries`，其中有golang的代码提示需要使用到的`gopls`，但是我们访问`golang.org/x/tools`
+这里我们会使用golang的配置，go-vim安装后需要安装go的工具包`:GoInstallBinaries`，其中有golang的代码提示需要使用到的`gopls`，==同时记得把go的工具包路径加入PATH==，但是我们访问`golang.org/x/tools`
 时，会无法访问，目前的解决办法是使用`goproxy`
 
 ```bash
