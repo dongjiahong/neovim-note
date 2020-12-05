@@ -43,4 +43,4 @@ export GOPROXY=https://goproxy.io
 GO111MODULE=on go get golang.org/x/tools/gopls@latest
 ```
 
-然后我们可以使用`:CocConfig`来配置我们的golang的服务器具体可以参考`https://github.com/neoclide/coc.nvim/wiki/Language-servers`
+然后我们可以使用`:CocConfig`来配置我们的golang的服务器,它会在`.config/nvim/`目录下生成`coc-setting.json`这个配置文件具体可以参考`https://github.com/neoclide/coc.nvim/wiki/Language-servers`
