@@ -13,6 +13,8 @@ vim的`.vimrc`是一样的
 
 #### 指令
 `curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`
+如果拒绝链接修改host
+199.232.28.133 raw.githubusercontent.com
 
 #### 用法
 在`init.nvim`中添加如下代码
